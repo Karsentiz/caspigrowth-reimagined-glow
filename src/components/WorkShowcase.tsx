@@ -3,8 +3,8 @@ const caseStudies = [
   {
     client: "TechFusion",
     industry: "SaaS",
-    result: "+187% Organic Traffic",
-    description: "Complete SEO overhaul and content strategy that transformed their digital presence.",
+    result: "+157% Podcast Reach",
+    description: "Strategic podcast guest appearances and sponsorships that expanded their audience reach.",
     imageClass: "bg-blue-100",
   },
   {
@@ -17,8 +17,8 @@ const caseStudies = [
   {
     client: "UrbanDine",
     industry: "Food & Beverage",
-    result: "+79% Conversions",
-    description: "Website redesign and conversion rate optimization focused on user experience.",
+    result: "+189% Influencer ROI",
+    description: "Influencer marketing campaign that drove authentic engagement and direct sales.",
     imageClass: "bg-amber-100",
   },
 ];
@@ -32,7 +32,7 @@ const WorkShowcase = () => {
             Results That <span className="text-accent">Speak Volumes</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            We believe in measurable growth. Here's how we've transformed our clients' digital presence.
+            We believe in measurable growth. Here's how we've transformed our clients' media presence and business outcomes.
           </p>
         </div>
 

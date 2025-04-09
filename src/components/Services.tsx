@@ -1,42 +1,42 @@
 
-import { Zap, BarChart3, Search, PenTool, Megaphone, Code } from "lucide-react";
+import { Zap, Megaphone, PenTool, Tv, Headphones, Users } from "lucide-react";
 
 const serviceItems = [
   {
-    icon: <Search size={24} />,
-    title: "SEO Optimization",
+    icon: <Headphones size={24} />,
+    title: "Podcast Marketing",
     description:
-      "Data-driven SEO strategies that boost your organic visibility and drive qualified traffic.",
+      "Strategic podcast placements and partnerships that connect your brand with engaged audiences actively seeking industry insights.",
+  },
+  {
+    icon: <Tv size={24} />,
+    title: "TV Advertising",
+    description:
+      "High-impact television campaigns that build brand awareness and create memorable impressions across targeted demographics.",
   },
   {
     icon: <Megaphone size={24} />,
     title: "Paid Advertising",
     description:
-      "High-ROI campaigns across search, social, and display networks that maximize your ad spend.",
+      "High-ROI campaigns across search, social, and display networks that maximize your ad spend and drive conversions.",
   },
   {
     icon: <PenTool size={24} />,
     title: "Content Marketing",
     description:
-      "Engaging content strategies that build authority and create meaningful connections with your audience.",
+      "Engaging content strategies that build authority and create meaningful connections with your audience across all channels.",
   },
   {
-    icon: <BarChart3 size={24} />,
-    title: "Analytics & Insights",
+    icon: <Users size={24} />,
+    title: "Influencer Marketing",
     description:
-      "Comprehensive analytics that reveal actionable insights to continuously refine your marketing strategy.",
-  },
-  {
-    icon: <Code size={24} />,
-    title: "Web Development",
-    description:
-      "High-performance websites optimized for conversion, speed, and seamless user experience.",
+      "Authentic partnerships with relevant influencers who amplify your brand message to their highly engaged followers.",
   },
   {
     icon: <Zap size={24} />,
     title: "Growth Strategy",
     description:
-      "Holistic growth frameworks tailored to your unique business goals and market position.",
+      "Holistic growth frameworks tailored to your unique business goals and market position for sustainable results.",
   },
 ];
 
@@ -46,10 +46,10 @@ const Services = () => {
       <div className="container-custom">
         <div className="text-center mb-16 reveal">
           <h2 className="text-3xl md:text-4xl font-bold font-poppins mb-4 text-primary">
-            Supercharge Your <span className="text-accent">Digital Performance</span>
+            Supercharge Your <span className="text-accent">Media Presence</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Our full-funnel approach creates measurable impact at every stage of your customer's journey.
+            Our multi-channel approach creates maximum visibility and engagement across traditional and digital media platforms.
           </p>
         </div>
 
